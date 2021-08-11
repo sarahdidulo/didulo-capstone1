@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #fcefef;
+}
+
+.col-12{
+	padding: 0;
+}
+
+.jumbotron{
+	background: url(images/flowers.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	color: white;
+	padding-top: 20vh;
+	padding-bottom: 16vh;
+}
+
+.jumbotron p{
+	font-size: 18px;
+}
+
+#scrollnav{
+	opacity: 1.0;
+	height: 100px;
+	transition: 0.2s;
+}
+
+.navbar-nav a{
+	margin-right: 20px;
+	color: gray;
+}
+
+.profilepic{
+	height: 250px;
+	width: 250px;
+	box-shadow: 0px 10px 15px rgba(0, 1, 0, 0.5);
+}
+
+.aboutme h1{
+	font-family: 'Satisfy', cursive;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 70px;
+	padding-left: 5%;
+	padding-top: 40px;
+	color: #da627d;
+}
+/*.nav-link{
+	display: inline-block;
+}*/
+
+.aboutme_content{
+	padding: 60px;
+	color: gray;
+	line-height: 200%;
+	font-size: 16px;
+	
+}
+
+.aboutme_content .par2{
+	padding-bottom: 50px;
+	border-width: 2px;
+	border-bottom-style: dashed;
+	border-color: gray;
+}
+
+.aboutme_skills img{
+	width: 100px;
+}
+
+.card{
+	width: 22rem;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.card img{
+	height: 230px;
+}
+
+
+
+.projects h1{
+	font-family: 'Satisfy', cursive;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 70px;
+	padding-left: 5%;
+	padding-top: 40px;
+	color: #da627d;
+}
+
+.projects .card-title{
+	text-align: center;
+}
+
+.projects .btn{
+	width: 50%;
+}
+
+.contactme h1{
+	font-family: 'Satisfy', cursive;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 70px;
+	padding-left: 5%;
+	padding-top: 40px;
+	color: #da627d;
+}
+
+.contactme .message{
+	padding: 5% 6%;
+}
+
+.map{
+	border: 0;
+}
+
+@media (min-width: 992px){
+	.aboutme_content{
+		border-width: 2px;
+		border-right-style: dashed;
+		border-color: gray;
+	}
+
+	.aboutme_content .par2{
+		padding-bottom: 0px;
+		border-bottom-style: none;
+	}
+
+	.contactme .message{
+		border-width: 2px;
+		border-right-style: dashed;
+		border-color: gray;
+	}
+}
+
+
