@@ -196,6 +196,19 @@ body{
 	}
 }	
 
+@media (min-width: 768px){
+	.aboutme_content{
+		border-width: 2px;
+		border-right-style: dashed;
+		border-color: gray;
+	}
+
+	.aboutme_content .par2{
+		padding-bottom: 0px;
+		border-bottom-style: none;
+	}
+}
+
 @media (min-width: 992px){
 	.aboutme_content{
 		border-width: 2px;
