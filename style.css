@@ -45,6 +45,11 @@ body{
 	color: gray;
 }
 
+/*.navbar-dark{
+	background-color: pink;
+	color: black;
+}*/
+
 .profilepic{
 	height: 250px;
 	width: 250px;
@@ -136,6 +141,7 @@ body{
 
 .map{
 	border: 0;
+	width: 300px;
 }
 
 .contactme a{
@@ -157,10 +163,13 @@ body{
 
 .footer_pane a{
 	text-decoration: none;
-	line-height;
 	display: block;
 	line-height: 40px;
 	color: white;
+}
+
+.numbers li{
+	line-height: 40px;
 }
 
 .footer_pane a:hover{
@@ -181,6 +190,12 @@ body{
 	font-size: 12px;
 }
 
+@media (min-width: 576px){
+	.map{
+		width: 350px;
+	}
+}	
+
 @media (min-width: 992px){
 	.aboutme_content{
 		border-width: 2px;
@@ -199,5 +214,6 @@ body{
 		border-color: gray;
 	}
 }
+
 
 
