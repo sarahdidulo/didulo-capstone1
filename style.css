@@ -57,11 +57,11 @@ body{
 }
 
 .aboutme h1{
-	/*font-family: 'Satisfy', cursive;*/
+	font-family: 'Satisfy', cursive;
 	font-style: bold;
 	font-weight: 600;
-	/*font-size: 70px;*/
-	font-size: 50px;
+	font-size: 70px;
+	/*font-size: 50px;*/
 	padding-left: 5%;
 	padding-top: 30px;
 	color: #3f3f3f;
@@ -104,11 +104,11 @@ body{
 
 
 .projects h1{
-	/*font-family: 'Satisfy', cursive;*/
+	font-family: 'Satisfy', cursive;
 	font-style: bold;
 	font-weight: 600;
-	/*font-size: 70px;*/
-	font-size: 50px;
+	font-size: 70px;
+	/*font-size: 50px;*/
 	padding-left: 5%;
 	padding-top: 40px;
 	/*color: #da627d;*/
@@ -124,11 +124,11 @@ body{
 }
 
 .contactme h1{
-	/*font-family: 'Satisfy', cursive;*/
+	font-family: 'Satisfy', cursive;
 	font-style: bold;
 	font-weight: 600;	
-	/*font-size: 70px;*/
-	font-size: 50px;
+	font-size: 70px;
+	/*font-size: 50px;*/
 	padding-left: 5%;
 	padding-top: 20px;
 	/*color: #da627d;*/
