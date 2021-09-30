@@ -34,8 +34,8 @@ body{
 }
 
 #scrollnav{
-	opacity: 1.0;
-	height: 100px;
+	/*opacity: 0.7;*/
+	height: auto;
 	color: gray;
 	/*transition: 0.2s;*/
 }
@@ -67,7 +67,7 @@ body{
 	color: #3f3f3f;
 	/*color: #da627d; pink*/
 }
-/*.nav-link{
+/*.	-link{
 	display: inline-block;
 }*/
 
@@ -98,7 +98,8 @@ body{
 }
 
 .card img{
-	height: 230px;
+	/*height: 230px;*/
+	object-fit: contain;
 }
 
 
@@ -129,14 +130,15 @@ body{
 	font-weight: 600;	
 	font-size: 70px;
 	/*font-size: 50px;*/
-	padding-left: 5%;
-	padding-top: 20px;
+	/*padding-left: 5%;*/
+	padding-top: 40px;
 	/*color: #da627d;*/
 	color: #3f3f3f;
+	letter-spacing: 2px;
 }
 
 .contactme .message{
-	padding: 2% 6%;
+	padding: 1% 6%;
 }
 
 .map{
@@ -156,7 +158,7 @@ body{
 .footer_pane{
 	background-color: #151e3f;
 	height: auto;
-	margin-top: 100px;
+	margin-top: 50px;
 	color: white;
 	padding: 20px 50px;
 }
@@ -190,6 +192,10 @@ body{
 	font-size: 12px;
 }
 
+.message-content li{
+	list-style: none;
+}
+
 @media (min-width: 576px){
 	.map{
 		width: 350px;
@@ -207,6 +213,14 @@ body{
 		padding-bottom: 0px;
 		border-bottom-style: none;
 	}
+
+	#scrollnav{
+		/*opacity: 0.7;*/
+		height: 100px;
+		color: gray;
+		/*transition: 0.2s;*/
+	}
+
 }
 
 @media (min-width: 992px){
@@ -221,11 +235,11 @@ body{
 		border-bottom-style: none;
 	}
 
-	.contactme .message{
+	/*.contactme .message{
 		border-width: 2px;
 		border-right-style: dashed;
 		border-color: gray;
-	}
+	}*/
 }
 
 
