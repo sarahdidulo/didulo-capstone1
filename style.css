@@ -49,6 +49,8 @@ h2 {
 	/*opacity: 0.7;*/
 	height: auto;
 	color: gray;
+	background-color: rgba(180, 174, 253, 0.516);
+	padding: 10px;
 	/*transition: 0.2s;*/
 }
 
@@ -119,7 +121,7 @@ a.nav-link:hover {
 }
 
 .card img{
-	height: 200px;
+	height: 220px;
 	object-fit: cover;
 	object-position: top;
 	border-top-left-radius: 10px;
@@ -140,6 +142,14 @@ a.nav-link:hover {
 
 .projects .card-title{
 	text-align: center;
+}
+
+.projects .card-text {
+	min-height: 65px;
+}
+
+.projects .project-1 {
+	object-position: left center;
 }
 
 .projects .btn{
@@ -233,14 +243,6 @@ a.nav-link:hover {
 		padding-bottom: 0px;
 		border-bottom-style: none;
 	}
-
-	#scrollnav{
-		/*opacity: 0.7;*/
-		height: 100px;
-		color: gray;
-		/*transition: 0.2s;*/
-	}
-
 }
 
 @media (min-width: 992px){
@@ -260,6 +262,14 @@ a.nav-link:hover {
 		border-right-style: dashed;
 		border-color: gray;
 	}*/
+	#scrollnav {
+		background-color: transparent;
+		padding: 0;
+		height: 90px;
+	}
+	.navbar-nav a{
+		padding: 10px;
+	}
 }
 
 
