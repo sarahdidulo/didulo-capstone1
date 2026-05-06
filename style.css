@@ -156,6 +156,13 @@ a.nav-link:hover {
 	width: 50%;
 }
 
+.projects a {
+	color: #4be4e2;
+}
+
+.projects a:hover {
+	text-decoration: underline;
+}
 .contactme h2{
 	font-style: bold;
 	font-weight: 600;	
