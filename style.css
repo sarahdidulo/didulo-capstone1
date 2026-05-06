@@ -142,10 +142,11 @@ a.nav-link:hover {
 
 .projects .card-title{
 	text-align: center;
+	height: 45px;
 }
 
 .projects .card-text {
-	min-height: 65px;
+	height: 70px;
 }
 
 .projects .project-1 {
