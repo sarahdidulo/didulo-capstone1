@@ -163,6 +163,11 @@ a.nav-link:hover {
 .projects a:hover {
 	text-decoration: underline;
 }
+
+.projects a.btn {
+	color: #FFFFFF;
+}
+
 .contactme h2{
 	font-style: bold;
 	font-weight: 600;	
