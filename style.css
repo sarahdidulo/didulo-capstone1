@@ -186,6 +186,8 @@ a.nav-link:hover {
 
 #projects {
 	position: relative;
+	justify-content: center;
+	row-gap: 30px;
 }
 
 .projects h2{
